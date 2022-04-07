@@ -1,0 +1,67 @@
+body{
+  background-image:url(background.jpg);
+  background-size: cover;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+     /* contenitore della paggina */
+.contenitore{
+  width: 1000px;
+  margin: auto;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px 10px 10px 10px;
+  height: 700px;
+}
+
+/* logo + parte iniziale */
+#logo{
+  width: 200px;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+.titolo{
+ display: block;
+ margin:0 auto;
+ text-align: center;
+ font-family: system-ui;
+ color: limegreen;
+ font-size: 30px;
+}
+.tasti{
+  display: block;
+  margin:0 auto;
+  text-align: center;
+  background-color: limegreen;
+  height: 40px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 800px;
+}
+
+/* centro della paggina */
+#centro{
+  color: white;
+  font-family: system-ui;
+}
+li{
+  font-size: 25px;
+}
+.carica1{
+  background-color: orange;
+  width: 280px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+.carica2{
+  background-color: limegreen;
+  width: 400px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
+.carica3{
+  background-color: firebrick;
+  width: 135px;
+  height: 20px;
+  border-radius: 5px 5px 5px 5px;
+}
